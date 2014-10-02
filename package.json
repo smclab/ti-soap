@@ -3,9 +3,19 @@
   "guid": "7ce6abee-947a-15b9-24be-38fe1aa9e53c",
   "version": "0.1.0",
   "description": "A (superagent-based) simple SOAP client for Titanium SDK",
+  "author": {
+    "name": "Pier Paolo Ramon",
+    "email": "pierpaolo.ramon@smc.it",
+    "url": "https://github.com/yuchi"
+  },
+  "license": "LGPL-2.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smclab/ti-soap.git"
+  },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "grunt"
   },
   "keywords": [
     "soap",
@@ -13,21 +23,19 @@
     "titaniumsdk",
     "titaniumifier"
   ],
-  "author": "Pier Paolo Ramon",
-  "license": "LGPL-2.1",
   "titanium": {
     "superagent": "ti-superagent"
   },
   "dependencies": {
-    "soap": "~0.5.1",
     "sax": "~0.6.0",
+    "soap": "~0.5.1",
     "strip-bom": "~1.0.0"
   },
   "devDependencies": {
-    "grunt-zip": "~0.16.0",
-    "grunt-titanium": "~0.2.2",
-    "grunt": "~0.4.5",
     "grunt-contrib-clean": "~0.6.0",
-    "grunt-titaniumifier": "~0.2.7"
+    "grunt-titanium": "~0.2.2",
+    "grunt-titaniumifier": "~0.2.7",
+    "grunt-zip": "~0.16.0",
+    "grunt": "~0.4.5"
   }
 }
