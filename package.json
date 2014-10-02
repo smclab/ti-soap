@@ -1,0 +1,33 @@
+{
+  "name": "ti-soap",
+  "guid": "7ce6abee-947a-15b9-24be-38fe1aa9e53c",
+  "version": "0.1.0",
+  "description": "A (superagent-based) simple SOAP client for Titanium SDK",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "soap",
+    "titanium",
+    "titaniumsdk",
+    "titaniumifier"
+  ],
+  "author": "Pier Paolo Ramon",
+  "license": "LGPL-2.1",
+  "titanium": {
+    "superagent": "ti-superagent"
+  },
+  "dependencies": {
+    "soap": "~0.5.1",
+    "sax": "~0.6.0",
+    "strip-bom": "~1.0.0"
+  },
+  "devDependencies": {
+    "grunt-zip": "~0.16.0",
+    "grunt-titanium": "~0.2.2",
+    "grunt": "~0.4.5",
+    "grunt-contrib-clean": "~0.6.0",
+    "grunt-titaniumifier": "~0.2.7"
+  }
+}
