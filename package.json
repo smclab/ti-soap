@@ -1,6 +1,6 @@
 {
   "name": "ti-soap",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A (superagent-based) simple SOAP client for Titanium SDK",
   "titaniumManifest": {
     "guid": "7ce6abee-947a-15b9-24be-38fe1aa9e53c",
