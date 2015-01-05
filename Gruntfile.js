@@ -13,9 +13,7 @@ module.exports = function (grunt) {
 
     titaniumifier: {
       "module": {
-        options: {
-          as: "soap"
-        }
+        options: {}
       }
     },
 

@@ -3,6 +3,9 @@
   "guid": "7ce6abee-947a-15b9-24be-38fe1aa9e53c",
   "version": "0.1.0",
   "description": "A (superagent-based) simple SOAP client for Titanium SDK",
+  "titaniumManifest": {
+    "moduleid": "soap"
+  },
   "author": {
     "name": "Pier Paolo Ramon",
     "email": "pierpaolo.ramon@smc.it",
@@ -34,7 +37,7 @@
   "devDependencies": {
     "grunt-contrib-clean": "~0.6.0",
     "grunt-titanium": "~0.2.2",
-    "grunt-titaniumifier": "~0.2.7",
+    "grunt-titaniumifier": "~1.0.0",
     "grunt-zip": "~0.16.0",
     "grunt": "~0.4.5"
   }
