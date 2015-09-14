@@ -51,6 +51,12 @@ You can use [this *package.json* from one of our modules][lrc-pkg] as a referenc
 [rp]: https://github.com/smclab/ti-soap/releases
 [lrc-pkg]: https://github.com/smclab/liferay-connector/tree/master/package.json
 
+### Alloy Sync Adapter
+
+[@HazemKhaled](https://github.com/hazemkhaled) created [an Alloy Sync Adapter][asa] that uses this module. If you‘re using Alloy it’s a good idea to [have a look there][asa].
+
+[asa]: https://github.com/HazemKhaled/co.thecodelab.adapter.soap
+
 
 Credits
 -------
